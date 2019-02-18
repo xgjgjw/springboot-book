@@ -23,4 +23,9 @@ public class UserController {
 	public User getUserByID(@RequestParam int id){
 		return userService.getUserByID(id);
 	}
+	
+	@RequestMapping("/test")
+	public String test(){
+		return "Just Test!";
+	}
 }
