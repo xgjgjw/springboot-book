@@ -26,6 +26,6 @@ public class UserController {
 	
 	@RequestMapping("/test")
 	public String test(){
-		return "Just Test!";
+		return "Just for test!";
 	}
 }
