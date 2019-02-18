@@ -19,4 +19,7 @@ public interface UserService {
 	
 	@RequestMapping(value="/getUserByID")
 	public User getUserByID(@RequestParam(value="id") int id);
+	
+	@RequestMapping("/test")
+	public String test();
 }

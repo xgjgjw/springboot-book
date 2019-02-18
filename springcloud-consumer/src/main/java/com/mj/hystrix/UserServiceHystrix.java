@@ -22,4 +22,9 @@ public class UserServiceHystrix implements UserService{
 		return user;
 	}
 
+	@Override
+	public String test() {
+		return "The page is not exit!";
+	}
+
 }
